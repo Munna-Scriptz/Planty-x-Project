@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =================Common css Starting========================= */
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    padding: 28px 0 !important;
+    box-sizing: border-box;
+}
+
+/* =================Common css Ending========================= */
+
+/* =================Button Hover Effect Starting========================= */
+ul li a {
+    position: relative;
+}
+
+ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #2abfff, #0051ff);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+i{
+    transition: all 0.3s ease-in-out;
+}
+
+i:hover {
+    transform: scale(1.2);
+    color: #2abfff;
+}
+i:hover {
+    transform: scale(1.2);
+    color: #2abfff;
+}
+/* =================Button Hover Effect Ending========================= */
+
+/* ================================Navbar Starting================================= */
+nav ul {
+    gap: 32px !important;
+}
+nav a{
+    padding: 0px !important;
+}
+
+.icons {
+    display: flex;
+    gap: 23px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.dropdown_padding li a{
+    padding: 7px 20px !important;
+}
+.dropdown_main a{
+    color: #000000 !important;
+}
+/* ============================Navbar Ending=================================== */
+
+/* =================Banner Section Starting========================= */
+#Banner_section {
+    position: relative;
+}
+
+.banner_heading h1 {
+    width: 415px;
+    font-size: 67px;
+    font-weight: 400;
+    font-family: "Belleza", serif;
+    color: #010101;
+    padding-top: 58px;
+}
+
+.banner_heading h2 {
+    width: 290px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Inter", serif;
+}
+
+.banner_heading a {
+    display: inline-block;
+    margin-top: 37px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    padding: 10px 19px;
+    background-color: #010101;
+    color: #ffffff;
+    border-radius: 27px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+
+.banner_heading a {
+    transition: all 0.3s ease-in-out;
+}
+
+.banner_heading a:hover {
+    transform: scale(1.2);
+    background-color: #21da11;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.banner_heading p {
+    margin-top: 21px;
+    font-family: "Adamina", serif;
+    font-size: 16px;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pngs {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+}
+
+.pngs {
+    margin-top: 31px;
+
+    .bloomerg {
+        width: 135px;
+    }
+
+    .forbes {
+        width: 81px;
+    }
+}
+
+
+/* =================Banner Section Ending========================= */
+
+/* =================Learn More Section Starting========================= */
+#section2 {
+    padding: 83px 0;
+    position: relative;
+}
+
+.section_about {
+    display: flex;
+    gap: 135px;
+
+    p {
+        width: 453px;
+        font-family: "Abel", serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    h1 {
+        width: 627px;
+        font-size: 36px;
+        font-weight: 500;
+        font-family: "Lora", serif;
+    }
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+    gap: 9px;
+
+    & span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #000000;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        transition: all 0.3s ease;
+    }
+
+    span:hover {
+        transform: scale(1.2);
+        background-color: #21da11;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Adamina", serif;
+    }
+}
+
+/* ----------Image with grey background Staring------------- */
+.bg_grey {
+    position: absolute;
+    left: 0;
+    margin-top: 454px;
+    background-color: #EDEDED;
+    width: 100%;
+    height: 436px;
+    z-index: -999;
+}
+
+.plant_image {
+    width: 100%;
+    margin-top: 153px;
+}
+
+.plant_image_h1 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 69px;
+    text-align: center;
+}
+
+/* --------Image with grey background Ending--------------- */
+
+.ourshop {
+    margin-top: 105px;
+
+    p {
+        font-family: "Adamina", serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    h1 {
+        margin-top: 34px;
+        width: 526px;
+        font-family: "Lora", serif;
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 37px;
+        font-size: 15px;
+        width: 134px;
+        text-align: center;
+        padding: 11px 21px;
+        background-color: #010101;
+        color: #ffffff;
+        border-radius: 27px;
+        font-weight: 400;
+        font-family: "Adamina", serif;
+        transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+        transform: scale(1.2);
+        background-color: #21da11;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+
+/* -----------Our Shop end----------- */
+
+/* -----------Product card Start----------- */
+.product_image {
+    position: relative;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+
+    img {
+        transition: all 300ms ease-in-out;
+    }
+}
+
+.product_image:hover img {
+    transform: scale(1.1);
+}
+
+.product_image:hover .overly_image {
+    opacity: 1;
+    z-index: 999;
+}
+
+.overly_image {
+    transition: all 300ms ease-in-out;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    opacity: 0;
+    z-index: 999;
+
+    i {
+        transition: all 0.3s ease-in-out;
+    }
+
+    i:hover {
+        transform: scale(1.2);
+        color: #21da11;
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        margin-top: 15px;
+        margin-right: 15px;
+        gap: 15px;
+    }
+
+    button i {
+        font-size: 30px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid rgb(197, 197, 197);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+
+.all_image_product {
+    display: flex;
+    gap: 44px;
+
+}
+
+.imageCard {
+    width: 368px;
+    margin-top: 50px;
+
+    .imageCard_caption {
+        padding-top: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: "Adamina", serif;
+            color: #000000;
+        }
+    }
+}
+
+/* -----------Product card End----------- */
+
+/* ==============Learn More Section Ending===================== */
+
+/* ===========Review Section Starting============ */
+#review_section {
+    padding-top: 161px;
+}
+
+.review_row {
+    display: flex;
+    gap: 183px;
+}
+
+.leftSide_review h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Adamina", serif;
+    margin-bottom: 23px;
+}
+
+.leftSide_review p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Abel", serif;
+    width: 262px;
+    color: #000000;
+}
+
+.review_stars {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 6px;
+
+    i {
+        width: 25px;
+        font-size: 25px;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        transition: all linear 100ms;
+    }
+
+    i:hover {
+        background-color: gold;
+        color: gold;
+    }
+
+    i:visited {
+        background-color: gold;
+        color: gold;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Abel", serif;
+        width: 23px;
+        color: #000000;
+        margin-bottom: 0;
+    }
+}
+
+.rightSide_review .leftSide_p {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Lora", serif;
+    width: 676px;
+}
+
+.pelma {
+    margin-top: 59px;
+}
+
+.pelma h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Lora", serif;
+}
+
+.pelma p {
+    margin-top: 11px;
+    font-size: 16;
+    font-family: "Abel", serif;
+    font-weight: 400;
+}
+
+/* ===========Review Section Ending============ */
+
+/* ===========Review image Section starting============ */
+#review_image_section {
+    padding-top: 54px;
+}
+
+.reviewImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review_image_descrip {
+    margin-top: 50px;
+    background: url(../images/frame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 746px;
+}
+
+.review_image_descrip .r_i_descrip {
+    padding-top: 72px;
+    padding-left: 116px;
+}
+
+.r_i_descrip h1 {
+    width: 401px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Lora", serif;
+
+}
+
+.r_i_descrip p {
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Abel", serif;
+    width: 286px;
+}
+
+.description_arrow a {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Adamina", serif;
+    gap: 33px;
+
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #000000;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        transition: all 0.3s ease;
+    }
+
+    span:hover {
+        transform: scale(1.2);
+        background-color: #0051ff;
+    }
+}
+
+/* ===========Review image Section Ending============ */
+/* ===========Submit Section Starting============ */
+#submit_section {
+    padding-top: 50px;
+    padding-bottom: 67px;
+}
+
+.submit_row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.submit_heading h1 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Lora", serif;
+    width: 706px;
+}
+
+.submit_button input {
+    padding: 15px;
+    padding-right: 100px;
+    outline: none;
+    border: none;
+}
+.submit_button{
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+}
+.submit_button input::placeholder {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Abel", serif;
+}
+
+.submit_button button {
+    font-size: 14px;
+    font-family: "Adamina", serif;
+    font-weight: 500;
+    padding: 13px 29px;
+    background-color: #010101;
+    color: #ffffff;
+    border-radius: 26px;
+    border: none;
+
+}
+
+.submit_button button {
+    transition: all 0.3s ease-in-out;
+}
+
+.submit_button button:hover {
+    transform: scale(1.2);
+    background-color: #2abfff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* ===========Submit Section Ending============ */
+
+/* ===========Footer Starting============ */
+footer{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 159px;
+}
+.footer_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 74px;
+}
+.footer_row img{
+    width: 123px;
+    
+}
+.footer_nav ul{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 16px;
+    gap: 59px;
+    font-family: "Quicksand", serif;
+}
+.footer_icon {
+    display: flex;
+    gap: 60px;
+    
+}
+.footer_icon i{
+    font-size: 27px;
+}
+.footer_nav{
+    ul li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right, #cca3a3, #f10707);
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    ul li a:hover::after {
+        transform: scaleX(1);
+    }
+}
+/* ===========Footer Ending============ */
+
