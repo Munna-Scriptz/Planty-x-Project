@@ -50,7 +50,7 @@ ul li a:hover::after {
     transform: scaleX(1);
 }
 
-i{
+i {
     transition: all 0.3s ease-in-out;
 }
 
@@ -58,17 +58,20 @@ i:hover {
     transform: scale(1.2);
     color: #2abfff;
 }
+
 i:hover {
     transform: scale(1.2);
     color: #2abfff;
 }
+
 /* =================Button Hover Effect Ending========================= */
 
 /* ================================Navbar Starting================================= */
 nav ul {
     gap: 32px !important;
 }
-nav a{
+
+nav a {
     padding: 0px !important;
 }
 
@@ -78,12 +81,15 @@ nav a{
     font-size: 24px;
     cursor: pointer;
 }
-.dropdown_padding li a{
+
+.dropdown_padding li a {
     padding: 7px 20px !important;
 }
-.dropdown_main a{
+
+.dropdown_main a {
     color: #000000 !important;
 }
+
 /* ============================Navbar Ending=================================== */
 
 /* =================Banner Section Starting========================= */
@@ -555,10 +561,12 @@ nav a{
     outline: none;
     border: none;
 }
-.submit_button{
+
+.submit_button {
     border-bottom: 2px solid;
     padding-bottom: 8px;
 }
+
 .submit_button input::placeholder {
     color: #000000;
     font-size: 16px;
@@ -590,22 +598,25 @@ nav a{
 /* ===========Submit Section Ending============ */
 
 /* ===========Footer Starting============ */
-footer{
+footer {
     background-color: #F3F3F3;
     width: 100%;
     height: 159px;
 }
-.footer_row{
+
+.footer_row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 74px;
 }
-.footer_row img{
+
+.footer_row img {
     width: 123px;
-    
+
 }
-.footer_nav ul{
+
+.footer_nav ul {
     display: flex;
     align-items: center;
     color: #000000;
@@ -613,15 +624,18 @@ footer{
     gap: 59px;
     font-family: "Quicksand", serif;
 }
+
 .footer_icon {
     display: flex;
     gap: 60px;
-    
+
 }
-.footer_icon i{
+
+.footer_icon i {
     font-size: 27px;
 }
-.footer_nav{
+
+.footer_nav {
     ul li a::after {
         content: "";
         position: absolute;
@@ -634,10 +648,10 @@ footer{
         transform-origin: center;
         transition: transform 0.3s ease-in-out;
     }
-    
+
     ul li a:hover::after {
         transform: scaleX(1);
     }
 }
-/* ===========Footer Ending============ */
 
+/* ===========Footer Ending============ */
