@@ -57,8 +57,6 @@ Simply double-click the index.html file or open it using your preferred web brow
 
 For any inquiries or feedback:
 
-Email: [your.email@example.com]
+Email: [ munnascriptz@gmail.com ]
 
-LinkedIn: Your LinkedIn Profile
-
-Twitter: @yourhandle
+LinkedIn: ---
