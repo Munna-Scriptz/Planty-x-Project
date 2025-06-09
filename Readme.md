@@ -37,3 +37,18 @@ Planty-x-Project/
 ├── images/
 │   └── [project images]
 ├── index.html
+
+📌 How to Use
+
+1. Clone the Repository:
+
+git clone https://github.com/Munna-Scriptz/Planty-x-Project.git
+
+2. Navigate to the Project Directory:
+
+cd Planty-x-Project
+
+
+3. Open index.html in Your Browser:
+
+Simply double-click the index.html file or open it using your preferred web browser to view the landing page.
