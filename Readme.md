@@ -19,3 +19,21 @@ Bootstrap Integration: Utilizes Bootstrap's grid system and components for strea
 Clean Layout: Organized sections including Hero, About, Products, Testimonials, and Contact.
 
 Interactive Elements: Incorporates hover effects and interactive buttons for enhanced user engagement.
+
+🛠️ Technologies Used
+
+HTML5: Structuring the content semantically.
+
+CSS3: Styling and layout enhancements.
+
+Bootstrap 5: Responsive design and pre-built components.
+
+
+📁 Project Structure
+
+Planty-x-Project/
+├── css/
+│   └── style.css
+├── images/
+│   └── [project images]
+├── index.html
