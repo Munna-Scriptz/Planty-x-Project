@@ -59,4 +59,4 @@ For any inquiries or feedback:
 
 Email: [ munnascriptz@gmail.com ]
 
-LinkedIn: ---
+LinkedIn: https://www.linkedin.com/in/munna-scripts-25287635b?trk=contact-info
